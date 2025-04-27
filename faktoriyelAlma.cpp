@@ -1,3 +1,4 @@
+//Faktöriyel alma kodu
 #include<iostream>
 using namespace std;
 int main(){
