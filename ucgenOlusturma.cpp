@@ -1,22 +1,23 @@
+//Girilen deÄŸerlere gÃ¶re Ã¼Ã§gen olup olmadÄ±ÄŸÄ±nÄ± belirler.ÃœÃ§gen ise de tÃ¼rÃ¼nÃ¼ belirler.
 #include <iostream>
 using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "Turkish");
     int a, b, c;
-    cout << "Üçgenin kenar uzunluklarını girin: ";
+    cout << "ÃœÃ§genin kenar uzunluklarÄ±nÄ± girin: ";
     cin >> a >> b >> c;
      if ((a+b>c) && (a+c>b) && (b+c>a)){
-    	cout<<"Girilen değerler ile bir üçgen elde edilir ve türü:";
+    	cout<<"Girilen deÄŸerler ile bir Ã¼Ã§gen elde edilir ve tÃ¼rÃ¼:";
     if (a == b && b == c)
-        cout << " eşkenar üçgendir.";
+        cout << " eÅŸkenar Ã¼Ã§gendir.";
     else if (a == b || b == c || a == c)
-        cout << " ikizkenar üçgendir.";
+        cout << " ikizkenar Ã¼Ã§gendir.";
     else
-        cout << " çeşitkenar üçgendir.";
+        cout << " Ã§eÅŸitkenar Ã¼Ã§gendir.";
 }
 else
-cout<<"Girilen değerler ile bir üçgen elde edilmez.";
+cout<<"Girilen deÄŸerler ile bir Ã¼Ã§gen elde edilmez.";
     return 0;
 }
 
