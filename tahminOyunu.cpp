@@ -3,23 +3,23 @@
 #include<ctime>
 using namespace std;
 int main(){
-	setlocale(LC_ALL, "Turkish");
-	srand(time(0));
-	int r=rand()%50+1;
+	setlocale(LC_ALL, "Turkish");//Türkçe karakterlerin görünmesi kodu
+	srand(time(0));//Rastgele sayı üreticisini (random generator) başlatır.
+	int r=rand()%50+1;//1 ile 50 arasında bir sayı üretir.
 	int tahmin;
-	cout<<"Bir say� tahmin ediniz:";
+	cout<<"Bir sayı tahmin ediniz:";
 	cin>>tahmin;
 	while(true){
 		if(tahmin<r){
-			cout<<"Daha b�y�k bir say� tahmin ediniz:";
+			cout<<"Daha büyük bir sayı tahmin ediniz:";
 			cin>>tahmin;
 		}
 		else if(tahmin>r){
-			cout<<"Daha k���k bir say� tahmin ediniz:";
+			cout<<"Daha küçük bir sayı tahmin ediniz:";
 			cin>>tahmin;
 		}
 		else{
-		cout<<"Do�ru bildiniz"; 
+		cout<<"Doğru bildiniz"; 
 		break;}
 	}
 }
