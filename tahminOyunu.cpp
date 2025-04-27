@@ -1,3 +1,4 @@
+//Kullanıcıya rastgele üretilen sayıyı bulduran mini oyun programı
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
