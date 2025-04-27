@@ -1,3 +1,4 @@
+//Kullanıcıdan alınan dizi elemanlarını tersten yazdıran program
 #include<iostream>
 using namespace std;
 
@@ -7,13 +8,13 @@ int main(){
     cout << "Dizi boyutunu girin (en fazla 10): ";
     cin >> boyut;
 
-    cout << "Dizi elemanlar�n� giriniz:" << endl;
+    cout << "Dizi elemanlarýný giriniz:" << endl;
     for (i = 0; i < boyut; i++) {
         cout << "dizi[" << i << "] = ";
         cin >> dizi[i];
     }
 
-    cout << "Dizinin tersten yaz�l���: ";
+    cout << "Dizinin tersten yazýlýþý: ";
     for (i = boyut - 1; i >= 0; i--) {
         cout << dizi[i] << " ";
     }
