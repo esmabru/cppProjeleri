@@ -4,7 +4,7 @@ int main(){
 	int fak=1;
 	int sayi;
 	int i;
-	cout<<"Bir sayı giriniz:";
+	cout<<"Bir sayÃ½ giriniz:";
 	cin>>sayi;
 	for(i=1;i<=sayi;i++){
 		fak*=i;
