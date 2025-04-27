@@ -5,7 +5,8 @@ int main(){
 	int sayi;
 	int i;
 	cout<<"Bir sayý giriniz:";
-	cin>>sayi;
+	cin>>sayi;//kullanıcıdan sayı alma
+	//Faktöriyel işlemi//
 	for(i=1;i<=sayi;i++){
 		fak*=i;
 	}
