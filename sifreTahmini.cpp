@@ -1,3 +1,4 @@
+//Verilen hak ile doÄŸru ÅŸifreyi tahmin etme programÄ±
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,19 +7,19 @@ int main(){
 	int tahmin;
 	int hak=3;
 	while(true){
-		cout<<"Şifreyi tahmin ediniz:";
+		cout<<"Ãifreyi tahmin ediniz:";
 		cin>>tahmin;
 		if(sifre==tahmin){
-			cout<<"Doğru tahmin.";
+			cout<<"DoÃ°ru tahmin.";
 			break;
 		}
 		else{
-			cout<<"Yanlış tahmin"<<endl;
+			cout<<"YanlÃ½Ã¾ tahmin"<<endl;
 			hak--;
 			cout<<""<<hak;
-			cout<<"Hakkınız kaldı"<<endl;
+			cout<<"HakkÃ½nÃ½z kaldÃ½"<<endl;
 			if(hak==0){
-				cout<<"Hakkınız bitmiştir.";
+				cout<<"HakkÃ½nÃ½z bitmiÃ¾tir.";
 				break;
 			}
 		}
