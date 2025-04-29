@@ -1,9 +1,10 @@
+//Verilen bir dizinin elemanlarını küçükten büyüğe sıralayan program
 #include<iostream>
 using namespace std;
 int main(){
     int dizi[]={23,1,10,5,2};           
     int i,j,takas;
-    // Bubble sort algoritmas�
+    // Bubble sort algoritmasý
     for(i=0;i<5-1;i++){
     	for(j=0;j<5-i-1;j++){
     		if(dizi[j]>dizi[j+1]){
@@ -13,6 +14,6 @@ int main(){
 			}
 		}
 	}
-	cout<<"K���kten b�y��e dizi elemanlar�:";
+	cout<<"Küçükten büyüðe dizi elemanlarý:";
 	for(i=0;i<5;i++){
 	cout << dizi[i] << " ";	}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
